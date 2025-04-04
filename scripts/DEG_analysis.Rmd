@@ -1,0 +1,269 @@
+---
+title: "DEG analysis sheet"
+date: "2025-03-25"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,        # Show code (set to FALSE to hide)
+  message = FALSE,    # Hide package loading messages
+  warning = FALSE,    # Hide warnings
+  error = TRUE        # allow knitting to continue if errors occur
+)
+# setwd("J:/Dropbox/Prague/Teaching/Course genomics of speciation/2024-2025/RNA-Seq practical/DEG analysis")
+```
+
+# Load required libraries
+
+```{r}
+# Install required packages if not already installed
+if (!requireNamespace("DESeq2", quietly = TRUE)) {
+  install.packages("BiocManager")
+  BiocManager::install("DESeq2")
+}
+
+# Load libraries
+library(DESeq2)
+
+# Check your current directory
+getwd()
+
+# Set your working directory
+setwd("J:/Dropbox/Prague/Teaching/Course genomics of speciation/2024-2025/RNA-Seq practical/DEG analysis")
+```
+
+# Import data
+
+Load the raw gene expression data (genes as rows, samples as columns) as well as the sample information (experimental design, e.g., control/treatment).
+
+```{r}
+# Load the counts data and metadata
+counts <- read.csv("your_read_counts.csv", row.names = 1) 
+metadata <- read.csv("your_sample_metadata.csv", row.names = 1) 
+
+# Check the structure of each input files
+head(counts)
+head(metadata)
+```
+
+Think about your experimental design. Which experimental groups would you like to compare? Based on what we learnt about contrasts in DESeq2, would you apply the approach outlined in Chapter I (compare only two groups) or Chapter II (compare two or more groups using a special function)?
+
+### Chapter I: Compare only two groups
+
+Use this approach when you're comparing exactly **two groups**, such as:
+- Control vs Treatment
+- Wildtype vs Mutant
+- Genotype A vs Genotype B
+
+Here, you use the formula `design = ~grouping`, which tells DESeq2 to model gene expression based on the **levels in the 'grouping' column** of your metadata. So, 'grouping' refers to the column in your metadata file that defines experimental groups.
+# ~grouping includes an intercept (baseline group)
+
+By setting the levels manually (e.g., `c("control", "treatment")`), you're defining which is the **baseline (control)** and which is the **comparison (treatment)** group.
+
+# Create a DESeq2 dataset and run the analysis
+
+To perform differential expression analysis, DESeq2 needs both the **raw gene counts** and the **sample information (metadata)** in a specific format — this is called a **DESeqDataSet**.
+
+The DESeq2 dataset combines:
+- The **counts matrix** (genes x samples) — tells DESeq2 how many reads mapped to each gene.
+- The **metadata** (samples x variables) — tells DESeq2 which samples belong to which experimental groups (e.g., treatment vs control).
+- A **design formula** — defines which variable(s) DESeq2 should use to compare groups.
+
+```{r}
+# Create a DESeq2 object
+dds <- DESeqDataSetFromMatrix(countData = counts,
+                              colData = metadata,
+                              design = ~grouping)  # Make sure to replace 'grouping' with the column you're using for comparison in your metadata
+
+# Make sure grouping is a factor
+dds$grouping <- factor(dds$grouping, levels=c("level 1", "level 2"))
+
+# (OPTIONAL) Remove genes with very low counts across all samples
+# Keep genes where the total count across all samples is at least 10
+dds <- dds[rowSums(counts(dds)) >= 10, ]
+
+# Run the differential expression analysis
+dds <- DESeq(dds)
+```
+
+# View and filter results
+
+```{r}
+# Perform your desired contrast   
+results_table <- results(dds, contrast = c("grouping", "level 1", "level 2"))
+
+# In a DESeq2 model, R compares two groups:
+# - One group is used as the "baseline" (this is the intercept)
+# - The difference between the other group and the baseline is the "coefficient"
+# This tells us how much more or less a gene is expressed in one group compared to the other.
+
+# Remove genes with missing values
+results_table <- na.omit(results_table)
+
+# Filter for significant genes (adjusted p-value < 0.05)
+significant_genes <- results_table[results_table$padj < 0.05, ]
+
+# Check how many genes are significant
+nrow(significant_genes)
+```
+
+How many genes passed the significance threshold?
+
+# Identify Up- and Down-regulated genes
+
+```{r}
+# Up-regulated in inter (log2 Fold Change > 1)
+up_genes <- significant_genes[significant_genes$log2FoldChange > 1, ]
+
+# Down-regulated in inter (log2 Fold Change < -1)
+down_genes <- significant_genes[significant_genes$log2FoldChange < -1, ]
+```
+
+Out of all the significantly differentially expressed genes, how many were upregulated and how many were downregulated?
+
+# Save the results
+
+```{r}
+write.csv(as.data.frame(up_genes), "your_output_up.csv")
+write.csv(as.data.frame(down_genes), "your_output_down.csv")
+```
+
+### Chapter II: Compare two or more groups using contraster()
+
+Use this approach when:
+- You want to compare **a group vs. the average** of multiple other groups
+- You want to customize contrasts beyond simple pairwise comparisons
+- Your experimental design involves more than two groups
+
+Here, the formula is `design = ~0 + grouping`, which removes the default intercept and lets you manually build contrasts using the `contraster()` function.
+
+The `grouping` column in your metadata should still define the biological groups (e.g., genotypes, treatments), but now you have more flexibility.
+
+For example:
+
+group1 = list(c("grouping", "treatment A", "treatment B"))
+group2 = list(c("grouping", "control"))
+
+This compares the average of treatment A and treatment B to control.
+
+# Create a DESeq2 dataset and run the analysis
+
+```{r}
+# Create a DESeq2 object
+# design = ~grouping means we're comparing based on the "grouping" column
+dds <- DESeqDataSetFromMatrix(countData = counts,
+                              colData = metadata,
+                              design = ~0+grouping)
+# ~0 + grouping removes intercept and estimates each group separately
+
+# Make sure grouping is a factor
+dds$grouping <- factor(dds$grouping, levels=c("level 1", "level 2", "level 3"...))
+
+# (OPTIONAL) Remove genes with very low counts across all samples
+# Keep genes where the total count across all samples is at least 10
+dds <- dds[rowSums(counts(dds)) >= 10, ]
+
+# Run the differential expression analysis
+dds <- DESeq(dds)
+```
+
+# Define the contraster function
+
+```{r}
+contraster <- function(dds,    # should contain colData and design
+                       group1, # list of character vectors each with 2 or more items 
+                       group2, # list of character vectors each with 2 or more items
+                       weighted = F
+){
+  
+  
+  mod_mat <- model.matrix(design(dds), colData(dds))
+  
+  grp1_rows <- list()
+  grp2_rows <- list()
+  
+  
+  for(i in 1:length(group1)){
+    
+    grp1_rows[[i]] <- colData(dds)[[group1[[i]][1]]] %in% group1[[i]][2:length(group1[[i]])]
+    
+  }
+  
+  
+  for(i in 1:length(group2)){
+    
+    grp2_rows[[i]] <- colData(dds)[[group2[[i]][1]]] %in% group2[[i]][2:length(group2[[i]])]
+    
+  }
+  
+  grp1_rows <- Reduce(function(x, y) x & y, grp1_rows)
+  grp2_rows <- Reduce(function(x, y) x & y, grp2_rows)
+  
+  mod_mat1 <- mod_mat[grp1_rows, ,drop=F]
+  mod_mat2 <- mod_mat[grp2_rows, ,drop=F]
+  
+  if(!weighted){
+    
+    mod_mat1 <- mod_mat1[!duplicated(mod_mat1),,drop=F]
+    mod_mat2 <- mod_mat2[!duplicated(mod_mat2),,drop=F]
+    
+  }
+  
+  return(colMeans(mod_mat1)-colMeans(mod_mat2))
+  
+  
+}
+```
+
+# View and filter results
+
+```{r}
+# Perform your desired contrast   
+results_table1 <- results(dds, 
+                contrast = contraster(dds, 
+                                      group1 = list(c("grouping", "level 1")),
+                                      group2 = list(c("grouping", "level 3", "level 4"))))
+
+# Check the intercept and coefficients*
+contraster(dds, 
+           group1 = list(c("grouping", "level 1")), 
+           group2 = list(c("grouping", "level 3", "level 4")))
+
+# Remove genes with missing values
+results_table1 <- na.omit(results_table1)
+
+# Filter for significant genes (adjusted p-value < 0.05)
+significant_genes1 <- results_table1[results_table1$padj < 0.05, ]
+
+# Check how many genes are significant
+nrow(significant_genes1)
+```
+
+\*Simple Analogy for Intercepts and Coefficients:
+
+Imagine you're comparing how tall people are in two different classrooms: Class A and Class B.
+
+-   The intercept is like the average height of the first group you're using as a baseline --- for example, Class A.
+
+-   The coefficient is how much taller or shorter people in Class B are compared to Class A.
+
+Here, we're doing the same thing --- just not with height, but with gene expression.
+
+# Identify Up- and Down-regulated genes
+
+```{r}
+# Up-regulated in inter (log2 Fold Change > 1)
+up_genes1 <- significant_genes1[significant_genes1$log2FoldChange > 1, ]
+
+# Down-regulated in inter (log2 Fold Change < -1)
+down_genes1 <- significant_genes1[significant_genes1$log2FoldChange < -1, ]
+```
+
+# Save the results
+
+```{r}
+# Save results to CSV
+write.csv(as.data.frame(up_genes1), "your_output_up.csv")
+write.csv(as.data.frame(down_genes1), "your_output_down.csv")
+```

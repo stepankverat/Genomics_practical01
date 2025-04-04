@@ -1,0 +1,276 @@
+gene ID,imprinting category,Species in which it is imprinted,annotated function
+Solyc01g006400,maternally expressed,S. peruvianum,Cysteine-rich extensin-like protein-4 (AHRD V1 *-*- Q08197_TOBAC)
+Solyc01g006880,paternally expressed,S. chilense,Histone-lysine N-methyltransferase (AHRD V1 *-*- B6JWJ3_SCHJY); contains Interpro domain(s)  IPR001214  SET 
+Solyc01g007070,maternally expressed,S. peruvianum,BEL1-like homeodomain protein 1 (AHRD V1 **-- BLH1_ARATH); contains Interpro domain(s)  IPR006563  POX 
+Solyc01g007350,maternally expressed,S. peruvianum,"Photosystem I reaction center subunit VIII (AHRD V1 *-*- Q3V525_ACOCL); contains Interpro domain(s)  IPR001302  Photosystem I reaction centre, subunit VIII "
+Solyc01g007570,maternally expressed,S. peruvianum,"30S ribosomal protein S11 chloroplastic (AHRD V1 ***- D3WCH5_NEROL); contains Interpro domain(s)  IPR019981  Ribosomal protein S11, bacterial-type "
+Solyc01g010000,paternally expressed,S. peruvianum,ACT domain-containing protein (AHRD V1 **-- D7M3X3_ARALY); contains Interpro domain(s)  IPR002912  Amino acid-binding ACT 
+Solyc01g015000,paternally expressed,S. chilense,Nitrogen regulatory protein P-II (AHRD V1 *-*- Q8DLA5_THEEB); contains Interpro domain(s)  IPR002187  Nitrogen regulatory protein PII 
+Solyc01g016410,paternally expressed,S. peruvianum,"RING finger protein 43 (AHRD V1 *-*- RNF43_HUMAN); contains Interpro domain(s)  IPR011016  Zinc finger, RING-CH-type "
+Solyc01g057760,paternally expressed,S. peruvianum,"ATP dependent RNA helicase (AHRD V1 *-*- B3LNW9_YEAS1); contains Interpro domain(s)  IPR011545  DNA/RNA helicase, DEAD/DEAH box type, N-terminal "
+Solyc01g065490,paternally expressed,S. chilense,Aldo/keto reductase (AHRD V1 **-- A2Q5A8_MEDTR); contains Interpro domain(s)  IPR001395  Aldo/keto reductase 
+Solyc01g066940,maternally expressed,S. peruvianum,Vesicle-associated membrane protein 7B (AHRD V1 ***- D7KE73_ARALY); contains Interpro domain(s)  IPR001388  Synaptobrevin 
+Solyc01g067040,maternally expressed,S. peruvianum,PWWP domain-containing protein (AHRD V1 *-*- D7L3U3_ARALY); contains Interpro domain(s)  IPR000313  PWWP 
+Solyc01g067290,maternally expressed,S. peruvianum,NAD-dependent epimerase/dehydratase (AHRD V1 **-- C8RY11_9RHOB); contains Interpro domain(s)  IPR016040  NAD(P)-binding domain 
+Solyc01g067720,maternally expressed,S. peruvianum,Vesicle-associated membrane protein-associated protein (AHRD V1 *-*- Q1ANA7_WHEAT); contains Interpro domain(s)  IPR000535  Major sperm protein 
+Solyc01g067930,maternally expressed,S. peruvianum,Alpha-1 6-xylosyltransferase (Fragment) (AHRD V1 **-- Q5TIN3_GOSRA); contains Interpro domain(s)  IPR008630  Galactosyl transferase 
+Solyc01g068060,maternally expressed,S. peruvianum,Autophagy-related protein 8 (AHRD V1 ***- A6P6J6_FAGES); contains Interpro domain(s)  IPR004241  Light chain 3 (LC3) 
+Solyc01g068600,maternally expressed,S. peruvianum,Paladin-like protein (AHRD V1 **-- D0NS27_PHYIN)
+Solyc01g073640,maternally expressed,S. peruvianum,Uncharacterized oxidoreductase Mb1385 (AHRD V1 ***- Y1385_MYCBO); contains Interpro domain(s)  IPR002347  Glucose/ribitol dehydrogenase 
+Solyc01g073640,maternally expressed,S. chilense,Uncharacterized oxidoreductase Mb1385 (AHRD V1 ***- Y1385_MYCBO); contains Interpro domain(s)  IPR002347  Glucose/ribitol dehydrogenase 
+Solyc01g073680,maternally expressed,S. peruvianum,"Non-specific lipid-transfer protein (AHRD V1 ***- C6TMC6_SOYBN); contains Interpro domain(s)  IPR013770  Plant lipid transfer protein and hydrophobic protein, helical "
+Solyc01g080020,maternally expressed,S. peruvianum,Xylanase inhibitor (Fragment) (AHRD V1 **-- Q53IQ4_WHEAT); contains Interpro domain(s)  IPR001461  Peptidase A1 
+Solyc01g088530,maternally expressed,S. peruvianum,Transposon protein (AHRD V1 ***- B6TXP6_MAIZE)
+Solyc01g088590,maternally expressed,S. peruvianum,Invertase inhibitor (AHRD V1 ***- A7IZL0_COFCA); contains Interpro domain(s)  IPR006501  Pectinesterase inhibitor 
+Solyc01g090180,maternally expressed,S. peruvianum,"Extradiol ring-cleavage dioxygenase class III protein subunit B (AHRD V1 ***- B8GF38_METPE); contains Interpro domain(s)  IPR014436  Extradiol aromatic ring-opening dioxygenase, DODA type "
+Solyc01g094010,maternally expressed,S. peruvianum,CXE carboxylesterase (AHRD V1 **-- Q0ZPW6_9ROSA); contains Interpro domain(s)  IPR013094  Alpha/beta hydrolase fold-3 
+Solyc01g094700,maternally expressed,S. peruvianum,Glycerol-3-phosphate acyltransferase 4 (AHRD V1 **** D7KQ54_ARALY); contains Interpro domain(s)  IPR002123  Phospholipid/glycerol acyltransferase 
+Solyc01g096230,maternally expressed,S. peruvianum,"ATPase AAA family protein expressed (AHRD V1 **-- Q8GZX0_ORYSJ); contains Interpro domain(s)  IPR003959  ATPase, AAA-type, core "
+Solyc01g096450,maternally expressed,S. peruvianum,Aspartic proteinase nepenthesin-1 (AHRD V1 **-- B6TDX6_MAIZE); contains Interpro domain(s)  IPR001461  Peptidase A1 
+Solyc01g101240,maternally expressed,S. peruvianum,Aspartic proteinase (AHRD V1 **** ASPRX_ORYSJ); contains Interpro domain(s)  IPR001461  Peptidase A1 
+Solyc01g103140,maternally expressed,S. peruvianum,Voltage-gated chloride channel (AHRD V1 **** Q96325_ARATH); contains Interpro domain(s)  IPR002251  Chloride channel plant CLC 
+Solyc01g103590,maternally expressed,S. peruvianum,Glyoxalase/bleomycin resistance protein/dioxygenase (AHRD V1 **-- Q2HVV5_MEDTR); contains Interpro domain(s)  IPR004360  Glyoxalase/bleomycin resistance protein/dioxygenase 
+Solyc01g103850,paternally expressed,S. peruvianum,"Ubiquitin-like domain containing CTD phosphatase 1 (AHRD V1 ***- B6TA38_MAIZE); contains Interpro domain(s)  IPR011943  HAD-superfamily hydrolase, subfamily IIID "
+Solyc01g104910,maternally expressed,S. peruvianum,Os11g0223400 protein (Fragment) (AHRD V1 *--- Q0ITS2_ORYSJ)
+Solyc01g104950,maternally expressed,S. peruvianum,"Alpha-L-arabinofuranosidase/beta-D-xylosidase (AHRD V1 **** D9D7L0_MALDO); contains Interpro domain(s)  IPR001764  Glycoside hydrolase, family 3, N-terminal "
+Solyc01g105030,maternally expressed,S. peruvianum,"Chlorophyll a-b binding protein, chloroplastic (AHRD V1 **** CB12_PETHY); contains Interpro domain(s)  IPR001344  Chlorophyll A-B binding protein "
+Solyc01g105050,maternally expressed,S. chilense,"Chlorophyll a-b binding protein, chloroplastic (AHRD V1 **** CB12_PETHY); contains Interpro domain(s)  IPR001344  Chlorophyll A-B binding protein "
+Solyc01g107210,maternally expressed,S. peruvianum,AT2G14850 protein (Fragment) (AHRD V1 *-*- B9DHZ5_ARATH)
+Solyc01g108780,maternally expressed,S. peruvianum,Alpha-hydroxynitrile lyase (AHRD V1 **-- O49897_MANES); contains Interpro domain(s)  IPR000073  Alpha/beta hydrolase fold-1 
+Solyc01g109030,maternally expressed,S. peruvianum,B3 domain-containing protein REM5 (AHRD V1 *-*- REM5_ARATH)
+Solyc01g109830,paternally expressed,S. peruvianum,Thymidylate synthase (AHRD V1 ***- D8LWN8_BLAHO); contains Interpro domain(s)  IPR012262  Bifunctional dihydrofolate reductase/thymidylate synthase 
+Solyc01g109830,paternally expressed,S. chilense,Thymidylate synthase (AHRD V1 ***- D8LWN8_BLAHO); contains Interpro domain(s)  IPR012262  Bifunctional dihydrofolate reductase/thymidylate synthase 
+Solyc01g109880,maternally expressed,S. peruvianum,BZIP transcription factor (AHRD V1 ***- C0KYN1_SOLLC); contains Interpro domain(s)  IPR011700  Basic leucine zipper 
+Solyc01g111350,maternally expressed,S. peruvianum,Nodulin family protein (AHRD V1 ***- D7MDH3_ARALY); contains Interpro domain(s)  IPR010658  Nodulin-like 
+Solyc01g111620,maternally expressed,S. peruvianum,"AT4G35080-like protein (Fragment) (AHRD V1 *--- D6PRD4_9BRAS); contains Interpro domain(s)  IPR011541  Nickel/cobalt transporter, high-affinity "
+Solyc02g032120,paternally expressed,S. chilense,"Zinc finger protein 207 (AHRD V1 *-*- Q28FC3_XENTR); contains Interpro domain(s)  IPR007087  Zinc finger, C2H2-type "
+Solyc02g038760,paternally expressed,S. chilense,AT-hook motif nuclear localized protein 2 (AHRD V1 ***- A1A6F0_ORYSJ); contains Interpro domain(s)  IPR005175  Protein of unknown function DUF296 
+Solyc02g063150,maternally expressed,S. peruvianum,"Ribulose bisphosphate carboxylase small chain (AHRD V1 ***- Q84QE5_TOBAC); contains Interpro domain(s)  IPR000894  Ribulose bisphosphate carboxylase, small chain "
+Solyc02g065780,maternally expressed,S. peruvianum,Unknown Protein (AHRD V1)
+Solyc02g068230,paternally expressed,S. peruvianum,"Membrane-anchored ubiquitin-fold protein 2 (AHRD V1 ***- D7M7C8_ARALY); contains Interpro domain(s)  IPR017000  Membrane-anchored ubiquitin-fold protein, HCG-1 "
+Solyc02g068560,paternally expressed,S. peruvianum,Chromodomain helicase DNA binding protein 5 (AHRD V1 *--- A2A8L1_MOUSE); contains Interpro domain(s)  IPR000330  SNF2-related 
+Solyc02g069490,maternally expressed,S. peruvianum,"FAD linked oxidase domain protein (AHRD V1 **-- D1VPW7_9ACTO); contains Interpro domain(s)  IPR006094  FAD linked oxidase, N-terminal "
+Solyc02g069800,maternally expressed,S. peruvianum,CXE carboxylesterase (AHRD V1 **-- Q0ZPU6_ACTCH); contains Interpro domain(s)  IPR013094  Alpha/beta hydrolase fold-3 
+Solyc02g070940,maternally expressed,S. peruvianum,Chlorophyll a/b binding protein (AHRD V1 **** Q41422_SOLTU); contains Interpro domain(s)  IPR001344  Chlorophyll A-B binding protein 
+Solyc02g070990,maternally expressed,S. peruvianum,Chlorophyll a/b binding protein (AHRD V1 **** Q41422_SOLTU); contains Interpro domain(s)  IPR001344  Chlorophyll A-B binding protein 
+Solyc02g071270,paternally expressed,S. peruvianum,RNA-binding protein (AHRD V1 *--* A8JCE7_CHLRE); contains Interpro domain(s)  IPR007201  RNA recognition motif 2 
+Solyc02g077780,paternally expressed,S. peruvianum,Necrotic spotted lesions 1 (Fragment) (AHRD V1 *-*- B6ZA38_HELPE); contains Interpro domain(s)  IPR001862  Membrane attack complex component/perforin/complement C9 
+Solyc02g080260,paternally expressed,S. peruvianum,Homeobox leucine-zipper protein (AHRD V1 ***- Q8H962_ZINEL); contains Interpro domain(s)  IPR002913  Lipid-binding START 
+Solyc02g080330,maternally expressed,S. peruvianum,Cytochrome P450
+Solyc02g080530,maternally expressed,S. chilense,"Peroxidase (AHRD V1 **** C7DYB2_9ERIC); contains Interpro domain(s)  IPR002016  Haem peroxidase, plant/fungal/bacterial "
+Solyc02g080570,maternally expressed,S. chilense,"Glycogen synthase (AHRD V1 *-** D4ZXV2_SPIPL); contains Interpro domain(s)  IPR011835  Glycogen/starch synthases, ADP-glucose type "
+Solyc02g082900,maternally expressed,S. peruvianum,Strictosidine synthase family protein (AHRD V1 **-- D7LTU8_ARALY); contains Interpro domain(s)  IPR004141  Strictosidine synthase 
+Solyc02g084440,maternally expressed,S. peruvianum,"Fructose-bisphosphate aldolase (AHRD V1 ***- Q9SXX4_NICPA); contains Interpro domain(s)  IPR000741  Fructose-bisphosphate aldolase, class-I "
+Solyc02g084990,maternally expressed,S. peruvianum,"Mannan endo-1 4-beta-mannosidase (AHRD V1 ***- A8FDC6_BACP2); contains Interpro domain(s)  IPR001547  Glycoside hydrolase, family 5 "
+Solyc02g087970,maternally expressed,S. peruvianum,Zinc finger-homeodomain protein 1 (Fragment) (AHRD V1 **-- B0LK17_YUCFI); contains Interpro domain(s)  IPR006456  ZF-HD homeobox protein Cys/His-rich dimerisation region 
+Solyc02g088510,maternally expressed,S. peruvianum,Saccharopine dehydrogenase (AHRD V1 ***- B6T3D2_MAIZE); contains Interpro domain(s)  IPR005097  Saccharopine dehydrogenase 
+Solyc02g089630,maternally expressed,S. peruvianum,Proline dehydrogenase (AHRD V1 **** A1E289_ACTDE); contains Interpro domain(s)  IPR015659  Proline oxidase 
+Solyc02g090030,maternally expressed,S. peruvianum,Oxygen-evolving enhancer protein 1 of photosystem II (AHRD V1 ***- A8J0E4_CHLRE); contains Interpro domain(s)  IPR002628  Photosystem II manganese-stabilizing protein PsbO 
+Solyc02g090890,maternally expressed,S. peruvianum,"Zeaxanthin epoxidase, chloroplastic"
+Solyc02g091560,maternally expressed,S. peruvianum,Serine hydroxymethyltransferase (AHRD V1 **** C6ZJZ0_SOYBN); contains Interpro domain(s)  IPR001085  Serine hydroxymethyltransferase 
+Solyc02g091840,maternally expressed,S. peruvianum,"Receptor like kinase, RLK"
+Solyc02g091890,maternally expressed,S. chilense,MRNA complete cds clone RAFL24-22-E06 (AHRD V1 *-*- Q67YL8_ARATH)
+Solyc02g093490,maternally expressed,S. peruvianum,SAGA-associated factor 29 homolog (AHRD V1 ***- B5XG72_SALSA); contains Interpro domain(s)  IPR010750  Protein of unknown function DUF1325 
+Solyc03g006050,maternally expressed,S. peruvianum,Leucine rich repeat family protein (AHRD V1 *--- Q1EP22_MUSBA)
+Solyc03g006350,paternally expressed,S. chilense,"Zinc finger CCCH domain-containing protein 27 (AHRD V1 *-*- C3H27_ARATH); contains Interpro domain(s)  IPR000571  Zinc finger, CCCH-type "
+Solyc03g007270,paternally expressed,S. chilense,Protein phosphatase 2C (AHRD V1 ***- B5A9S6_HEVBR); contains Interpro domain(s)  IPR015655  Protein phosphatase 2C 
+Solyc03g007440,paternally expressed,S. peruvianum,Unknown Protein (AHRD V1)
+Solyc03g034230,paternally expressed,S. peruvianum,Unknown Protein (AHRD V1)
+Solyc03g078630,maternally expressed,S. peruvianum,Ubiquitin (AHRD V1 ***- Q00IB5_RANNI); contains Interpro domain(s)  IPR019956  Ubiquitin subgroup 
+Solyc03g096840,maternally expressed,S. peruvianum,Seed specific protein Bn15D1B (AHRD V1 ***- B6TIB8_MAIZE)
+Solyc03g098590,paternally expressed,S. peruvianum,"RING finger protein 13 (AHRD V1 *--- RNF13_CHICK); contains Interpro domain(s)  IPR018957  Zinc finger, C3HC4 RING-type "
+Solyc03g098790,paternally expressed,S. peruvianum,"Kunitz-type protease inhibitor (AHRD V1 **** Q3S488_SOLTU); contains Interpro domain(s)  IPR002160  Proteinase inhibitor I3, Kunitz legume "
+Solyc03g111410,maternally expressed,S. peruvianum,B3 domain-containing protein Os01g0905400 (AHRD V1 *-*- Y1054_ORYSJ); contains Interpro domain(s)  IPR003340  Transcriptional factor B3 
+Solyc03g111550,maternally expressed,S. peruvianum,"GDSL esterase/lipase At3g48460 (AHRD V1 ***- GDL57_ARATH); contains Interpro domain(s)  IPR001087  Lipase, GDSL "
+Solyc03g111640,paternally expressed,S. chilense,"Eukaryotic translation initiation factor 4 gamma 2 (Fragment) (AHRD V1 *--- A3KQB2_DANRE); contains Interpro domain(s)  IPR003891  Initiation factor eIF-4 gamma, MA3 "
+Solyc03g112760,maternally expressed,S. peruvianum,Unknown Protein (AHRD V1)
+Solyc03g113390,maternally expressed,S. peruvianum,Calcium-dependent protein kinase 1 (AHRD V1 **** A9Z0P8_DATME); contains Interpro domain(s)  IPR002290  Serine/threonine protein kinase 
+Solyc03g115080,maternally expressed,S. peruvianum,"Presenilin family protein (AHRD V1 ***- D7LLE1_ARALY); contains Interpro domain(s)  IPR001108  Peptidase A22A, presenilin "
+Solyc03g115900,maternally expressed,S. peruvianum,"Chlorophyll a-b binding protein P4, chloroplastic (AHRD V1 ***- CB24_PEA); contains Interpro domain(s)  IPR001344  Chlorophyll A-B binding protein "
+Solyc03g116880,paternally expressed,S. chilense,DNA-3-methyladenine glycosylase I (AHRD V1 ***- B6U9I4_MAIZE); contains Interpro domain(s)  IPR005019  Methyladenine glycosylase 
+Solyc03g117280,maternally expressed,S. peruvianum,Unknown Protein (AHRD V1)
+Solyc03g117660,paternally expressed,S. peruvianum,"Mandelonitrile lyase (AHRD V1 *-*- B6SVJ2_MAIZE); contains Interpro domain(s)  IPR001841  Zinc finger, RING-type "
+Solyc03g120910,maternally expressed,S. peruvianum,Class III homeodomain-leucine zipper (AHRD V1 ***- Q1WD30_GINBI); contains Interpro domain(s)  IPR013978  MEKHLA 
+Solyc03g121270,maternally expressed,S. chilense,"IAA-amino acid hydrolase (AHRD V1 **** D5FTH2_POPTO); contains Interpro domain(s)  IPR017439  Peptidase M20D, mername-AA028/carboxypeptidase Ss1 "
+Solyc03g121600,maternally expressed,S. peruvianum,Choline dehydrogenase (AHRD V1 ***- B0WJG6_CULQU); contains Interpro domain(s)  IPR012132  Glucose-methanol-choline oxidoreductase 
+Solyc03g123440,paternally expressed,S. peruvianum,HhH-GPD family protein (AHRD V1 *--- D1CFH3_THET1); contains Interpro domain(s)  IPR003265  HhH-GPD domain 
+Solyc04g007130,maternally expressed,S. peruvianum,Genomic DNA chromosome 3 P1 clone MPE11 (AHRD V1 ***- Q9LUA5_ARATH)
+Solyc04g007520,maternally expressed,S. peruvianum,Phosphatidylserine synthase 2 (AHRD V1 ***- B6TFK2_MAIZE); contains Interpro domain(s)  IPR004277  Phosphatidyl serine synthase 
+Solyc04g009030,maternally expressed,S. peruvianum,Glyceraldehyde-3-phosphate dehydrogenase (AHRD V1 **** D7UNZ5_BRARC); contains Interpro domain(s)  IPR000173  Glyceraldehyde 3-phosphate dehydrogenase 
+Solyc04g011580,paternally expressed,S. peruvianum,mRNA binding protein Pumilio 2 (AHRD V1 *-** C1GCQ9_PARBD); contains Interpro domain(s)  IPR011989  Armadillo-like helical 
+Solyc04g014250,paternally expressed,S. chilense,FIP1 (AHRD V1 **-- B6SNS7_MAIZE); contains Interpro domain(s)  IPR004182  GRAM 
+Solyc04g016220,maternally expressed,S. peruvianum,UDP-glucose glucosyltransferase (AHRD V1 **** Q33DV3_ANTMA); contains Interpro domain(s)  IPR002213  UDP-glucuronosyl/UDP-glucosyltransferase 
+Solyc04g040180,maternally expressed,S. peruvianum,S-adenosylmethionine-dependent methyltransferase (Fragment) (AHRD V1 **** B3VXJ7_POPTN); contains Interpro domain(s)  IPR013217  Methyltransferase type 12 
+Solyc04g054410,paternally expressed,S. peruvianum,Regulation of nuclear pre-mRNA domain containing 1B (AHRD V1 *-*- B5DEK0_RAT); contains Interpro domain(s)  IPR006903  Protein of unknown function DUF618 
+Solyc04g054980,maternally expressed,S. chilense,"Lipoxygenase homology domain-containing protein 1 (AHRD V1 *--- LOXH1_MOUSE); contains Interpro domain(s)  IPR001024  Lipoxygenase, LH2 "
+Solyc04g054990,maternally expressed,S. peruvianum,"Lipoxygenase homology domain-containing protein 1 (AHRD V1 *--- LOXH1_HUMAN); contains Interpro domain(s)  IPR001024  Lipoxygenase, LH2 "
+Solyc04g058200,maternally expressed,S. peruvianum,TPR repeat protein (AHRD V1 *-*- Q6SES8_9BACT); contains Interpro domain(s)  IPR011990  Tetratricopeptide-like helical 
+Solyc04g063230,maternally expressed,S. peruvianum,"Dehydration-responsive family protein (AHRD V1 **-- D7LF23_ARALY); contains Interpro domain(s)  IPR004159  Protein of unknown function DUF248, methyltransferase putative "
+Solyc04g063380,paternally expressed,S. chilense,"F-box/LRR-repeat protein 2 (AHRD V1 ***- B6TAC3_MAIZE); contains Interpro domain(s)  IPR006553  Leucine-rich repeat, cysteine-containing subtype "
+Solyc04g072860,paternally expressed,S. peruvianum,"Beta-D-xylosidase (AHRD V1 **** Q8W011_HORVU); contains Interpro domain(s)  IPR001764  Glycoside hydrolase, family 3, N-terminal "
+Solyc04g074080,maternally expressed,S. peruvianum,WW domain containing protein expressed (AHRD V1 *-*- Q2QVE4_ORYSJ); contains Interpro domain(s)  IPR001202  WW/Rsp5/WWP 
+Solyc04g074640,maternally expressed,S. peruvianum,L-ascorbate peroxidase (AHRD V1 ***- A8JG56_CHLRE); contains Interpro domain(s)  IPR002207  Plant ascorbate peroxidase 
+Solyc04g074700,maternally expressed,S. peruvianum,"Homeobox-leucine zipper protein (AHRD V1 *-*- Q9FXN8_ZINEL); contains Interpro domain(s)  IPR003106  Leucine zipper, homeobox-associated "
+Solyc04g074770,maternally expressed,S. peruvianum,Unknown Protein (AHRD V1)
+Solyc04g076010,maternally expressed,S. peruvianum,Zinc ion binding protein (AHRD V1 *-*- D7LRR6_ARALY)
+Solyc04g076990,maternally expressed,S. peruvianum,"Receptor like kinase, RLK"
+Solyc04g077780,maternally expressed,S. peruvianum,"LIM domain protein (AHRD V1 **-- Q306K1_BRANA); contains Interpro domain(s)  IPR001781  Zinc finger, LIM-type "
+Solyc04g078540,paternally expressed,S. chilense,"Cathepsin B-like cysteine proteinase (AHRD V1 **-* CYSP_SCHMA); contains Interpro domain(s)  IPR013128  Peptidase C1A, papain "
+Solyc04g081100,paternally expressed,S. peruvianum,Amine oxidase (AHRD V1 *-*- A4RUP0_OSTLU); contains Interpro domain(s)  IPR002937  Amine oxidase 
+Solyc04g081100,paternally expressed,S. chilense,Amine oxidase (AHRD V1 *-*- A4RUP0_OSTLU); contains Interpro domain(s)  IPR002937  Amine oxidase 
+Solyc04g082510,maternally expressed,S. chilense,Serine/threonine-protein kinase (AHRD V1 **** C6ZRV0_SOYBN); contains Interpro domain(s)  IPR002290  Serine/threonine protein kinase 
+Solyc04g082630,maternally expressed,S. peruvianum,Glyceraldehyde-3-phosphate dehydrogenase B (AHRD V1 **** B4F8L7_MAIZE); contains Interpro domain(s)  IPR000173  Glyceraldehyde 3-phosphate dehydrogenase 
+Solyc04g082700,paternally expressed,S. chilense,"Solute carrier family 2, facilitated glucose transporter member 12 (AHRD V1 *-*- GTR12_MOUSE); contains Interpro domain(s)  IPR016196  Major facilitator superfamily, general substrate transporter "
+Solyc05g005080,maternally expressed,S. peruvianum,"Endo-1 4-beta-glucanase (AHRD V1 ***- O04890_SOLLC); contains Interpro domain(s)  IPR001701  Glycoside hydrolase, family 9 "
+Solyc05g008390,paternally expressed,S. peruvianum,"RING zinc finger-containing protein (AHRD V1 *--- Q54MR8_DICDI); contains Interpro domain(s)  IPR011016  Zinc finger, RING-CH-type "
+Solyc05g009520,maternally expressed,S. peruvianum,Genomic DNA chromosome 3 P1 clone MPE11 (AHRD V1 ***- Q9LUA5_ARATH)
+Solyc05g011960,maternally expressed,S. peruvianum,"Heat shock protein binding protein (AHRD V1 *--- D7KWX9_ARALY); contains Interpro domain(s)  IPR001623  Heat shock protein DnaJ, N-terminal "
+Solyc05g012580,maternally expressed,S. peruvianum,Unknown Protein (AHRD V1)
+Solyc05g013510,maternally expressed,S. peruvianum,Phosphate transporter 2-1 (AHRD V1 ***- Q7YME0_WHEAT); contains Interpro domain(s)  IPR001204  Phosphate transporter 
+Solyc05g014640,paternally expressed,S. chilense,En/Spm-like transposon protein (AHRD V1 *--- O04210_ARATH)
+Solyc05g015420,paternally expressed,S. peruvianum,MYND finger family protein expressed (AHRD V1 ***- Q2R448_ORYSJ); contains Interpro domain(s)  IPR011990  Tetratricopeptide-like helical 
+Solyc05g045670,maternally expressed,S. peruvianum,Glucose-6-phosphate/phosphate translocator 2 (AHRD V1 **** Q84Y17_SOLTU); contains Interpro domain(s)  IPR004696  Tpt phosphate/phosphoenolpyruvate translocator 
+Solyc05g051040,paternally expressed,S. chilense,"RING finger family protein (AHRD V1 ***- D6RU92_SILLA); contains Interpro domain(s)  IPR018957  Zinc finger, C3HC4 RING-type "
+Solyc05g053130,maternally expressed,S. peruvianum,"WD-40 repeat protein (AHRD V1 *--- B7K7B4_CYAP7); contains Interpro domain(s)  IPR017986  WD40 repeat, region "
+Solyc05g054210,maternally expressed,S. peruvianum,Proline-rich protein (AHRD V1 *-*- A1YL94_GOSHI); contains Interpro domain(s)  IPR006121  Heavy metal transport/detoxification protein 
+Solyc06g005250,paternally expressed,S. chilense,mRNA clone RAFL24-05-D16 (AHRD V1 ***- Q67YW5_ARATH)
+Solyc06g005500,maternally expressed,S. peruvianum,ATP binding / serine-threonine kinase (AHRD V1 **** C5DB71_VITVI); contains Interpro domain(s)  IPR002290  Serine/threonine protein kinase 
+Solyc06g005710,maternally expressed,S. peruvianum,cDNA clone 002-143-C11 full insert sequence (AHRD V1 *--- B7F1B2_ORYSJ); contains Interpro domain(s)  IPR016040  NAD(P)-binding domain 
+Solyc06g009400,paternally expressed,S. peruvianum,"Nitrogen regulatory protein P-II (AHRD V1 *-*- Q8DLA5_THEEB); contains Interpro domain(s)  IPR017918  Nitrogen regulatory protein PII, conserved site  IPR002187  Nitrogen regulatory protein PII "
+Solyc06g053230,maternally expressed,S. chilense,Unknown Protein (AHRD V1)
+Solyc06g053750,paternally expressed,S. peruvianum,Ubiquitin carboxyl-terminal hydrolase family protein expressed (AHRD V1 *--- Q2R2A3_ORYSJ); contains Interpro domain(s)  IPR002083  MATH 
+Solyc06g062530,paternally expressed,S. chilense,"Serine/threonine protein phosphatase 2A 55 kDa regulatory subunit B beta isoform (AHRD V1 ***- 2ABB_ARATH); contains Interpro domain(s)  IPR000009  Protein phosphatase 2A, regulatory subunit PR55 "
+Solyc06g063370,maternally expressed,S. chilense,"Chlorophyll a-b binding protein 1A, chloroplastic (AHRD V1 ***- CB2A_PYRPY); contains Interpro domain(s)  IPR001344  Chlorophyll A-B binding protein "
+Solyc06g065100,maternally expressed,S. peruvianum,Myb-like transcription factor 1 (AHRD V1 **** Q8H271_GOSHI); contains Interpro domain(s)  IPR015495  Myb transcription factor 
+Solyc06g065710,paternally expressed,S. peruvianum,Sister chromatid cohesion protein PDS5 homolog B-B (AHRD V1 *--- PD5BB_XENLA); contains Interpro domain(s)  IPR016024  Armadillo-type fold 
+Solyc06g069500,paternally expressed,S. peruvianum,Genomic DNA chromosome 5 P1 clone MXM12 (AHRD V1 *-*- Q9SD86_ARATH)
+Solyc06g069730,maternally expressed,S. peruvianum,"Chlorophyll a-b binding protein 4, chloroplastic (AHRD V1 ***- CA4_ARATH); contains Interpro domain(s)  IPR001344  Chlorophyll A-B binding protein "
+Solyc06g071490,paternally expressed,S. peruvianum,Serine/threonine-protein kinase ATM (AHRD V1 *--- ATM_ARATH); contains Interpro domain(s)  IPR000313  PWWP 
+Solyc06g071500,paternally expressed,S. peruvianum,"Boron transporter (AHRD V1 **-* A5JUZ5_9ROSI); contains Interpro domain(s)  IPR003020  Bicarbonate transporter, eukaryotic "
+Solyc06g072840,maternally expressed,S. peruvianum,Seed specific protein Bn15D1B (AHRD V1 ***- B6TIB8_MAIZE)
+Solyc06g073670,paternally expressed,S. chilense,"Protein FAR1-RELATED SEQUENCE 3 (AHRD V1 ***- FRS3_ARATH); contains Interpro domain(s)  IPR018289  MULE transposase, conserved domain "
+Solyc06g073970,paternally expressed,S. peruvianum,"AT5G22070 protein (Fragment) (AHRD V1 ***- B9DHZ2_ARATH); contains Interpro domain(s)  IPR004949  Protein of unknown function DUF266, plant "
+Solyc06g074200,maternally expressed,S. peruvianum,Sex-linked protein 9 (Fragment) (AHRD V1 ***- D7RW11_SILCU); contains Interpro domain(s)  IPR017498  Photosystem I PsaO 
+Solyc06g074820,maternally expressed,S. peruvianum,Aquaporin-like protein (AHRD V1 ***- D1M6Z5_CAPAN); contains Interpro domain(s)  IPR012269  Aquaporin 
+Solyc06g076480,maternally expressed,S. peruvianum,Pentapeptide repeat-containing protein (AHRD V1 *-*- D8G5N8_9CYAN); contains Interpro domain(s)  IPR001646  Pentapeptide repeat 
+Solyc06g082950,maternally expressed,S. peruvianum,"Photosystem I reaction center subunit XI (AHRD V1 ***- B6SHL1_MAIZE); contains Interpro domain(s)  IPR003757  Photosystem I reaction centre, subunit XI PsaL "
+Solyc06g083390,maternally expressed,S. peruvianum,"RPM1 interacting protein 4 transcript 2 (AHRD V1 ***- D2J0Y3_9ASTR); contains Interpro domain(s)  IPR008700  Defence response, Rin4 "
+Solyc06g083580,maternally expressed,S. peruvianum,Pectate lyase 1-27 (AHRD V1 **** B9TU35_9ROSI); contains Interpro domain(s)  IPR002022  Pectate lyase/Amb allergen 
+Solyc06g083680,maternally expressed,S. peruvianum,Photosystem I reaction center subunit IV A (AHRD V1 ***- B6TH55_MAIZE); contains Interpro domain(s)  IPR008990  Electron transport accessory protein 
+Solyc07g005760,maternally expressed,S. peruvianum,Hydroxycinnamoyl CoA shikimate/quinate hydroxycinnamoyltransferase (AHRD V1 **-* B2Z6Q6_POPTR); contains Interpro domain(s)  IPR003480  Transferase 
+Solyc07g006380,maternally expressed,S. peruvianum,Defensin-like protein (AHRD V1 ***- Q948T3_PYRPY); contains Interpro domain(s)  IPR008177  Gamma Purothionin 
+Solyc07g006560,maternally expressed,S. peruvianum,Hypersensitive response assisting protein (AHRD V1 ***- Q9SWC6_CAPAN); contains Interpro domain(s)  IPR001568  Ribonuclease T2 
+Solyc07g006560,maternally expressed,S. chilense,Hypersensitive response assisting protein (AHRD V1 ***- Q9SWC6_CAPAN); contains Interpro domain(s)  IPR001568  Ribonuclease T2 
+Solyc07g006970,maternally expressed,S. peruvianum,"Solute carrier family 2, facilitated glucose transporter member 5 (AHRD V1 ***- GTR5_RAT); contains Interpro domain(s)  IPR003663  Sugar/inositol transporter "
+Solyc07g021750,maternally expressed,S. peruvianum,"Cytidine deaminase (AHRD V1 ***- Q9XEX5_ARATH); contains Interpro domain(s)  IPR006263  Cytidine deaminase, homodimeric "
+Solyc07g042550,maternally expressed,S. peruvianum,"Sucrose synthase (AHRD V1 **** O82691_SOLLC); contains Interpro domain(s)  IPR012820  Sucrose synthase, plants and cyanobacteria  IPR000368  Sucrose synthase "
+Solyc07g043390,maternally expressed,S. peruvianum,Cellulose synthase family protein expressed (AHRD V1 **** Q339N6_ORYSJ); contains Interpro domain(s)  IPR005150  Cellulose synthase 
+Solyc07g043390,maternally expressed,S. chilense,Cellulose synthase family protein expressed (AHRD V1 **** Q339N6_ORYSJ); contains Interpro domain(s)  IPR005150  Cellulose synthase 
+Solyc07g043460,maternally expressed,S. peruvianum,"Cytochrome P450 (AHRD V1 ***- A9ZT56_COPJA); contains Interpro domain(s)  IPR002401  Cytochrome P450, E-class, group I "
+Solyc07g043480,maternally expressed,S. peruvianum,UDP-glucose glucosyltransferase (AHRD V1 *-** D2KTV5_LOTJA); contains Interpro domain(s)  IPR002213  UDP-glucuronosyl/UDP-glucosyltransferase 
+Solyc07g043500,maternally expressed,S. peruvianum,UDP-glucosyltransferase (AHRD V1 ***- Q8LKG3_STERE); contains Interpro domain(s)  IPR002213  UDP-glucuronosyl/UDP-glucosyltransferase 
+Solyc07g047850,maternally expressed,S. peruvianum,"Chlorophyll a-b binding protein 4, chloroplastic (AHRD V1 **** CB24_SOLLC); contains Interpro domain(s)  IPR001344  Chlorophyll A-B binding protein "
+Solyc07g053050,maternally expressed,S. peruvianum,Calmodulin (AHRD V1 **-- A7E7G2_SCLS1); contains Interpro domain(s)  IPR011992  EF-Hand type 
+Solyc07g055920,maternally expressed,S. peruvianum,"Agamous MADS-box transcription factor (AHRD V1 **-- B2CDE2_9ASPA); contains Interpro domain(s)  IPR002487  Transcription factor, K-box "
+Solyc07g061780,paternally expressed,S. peruvianum,"Ubiquitin carboxyl-terminal hydrolase family protein (AHRD V1 *-** D7MB42_ARALY); contains Interpro domain(s)  IPR001394  Peptidase C19, ubiquitin carboxyl-terminal hydrolase 2 "
+Solyc07g061790,maternally expressed,S. peruvianum,Heme-binding protein 2 (AHRD V1 **** B6T0C0_MAIZE); contains Interpro domain(s)  IPR006917  SOUL haem-binding protein 
+Solyc07g062500,maternally expressed,S. peruvianum,Cytochrome P450
+Solyc07g062520,maternally expressed,S. peruvianum,Cytochrome P450
+Solyc07g063420,maternally expressed,S. peruvianum,NAC domain transcription factor (AHRD V1 *-** Q4U0D4_WHEAT); contains Interpro domain(s)  IPR003441  No apical meristem (NAM) protein 
+Solyc07g064940,maternally expressed,S. peruvianum,Thioredoxin family protein (AHRD V1 *-*- Q1EPD8_MUSAC); contains Interpro domain(s)  IPR013766  Thioredoxin domain 
+Solyc07g065090,maternally expressed,S. peruvianum,"Polygalacturonase inhibitor protein (AHRD V1 ***- Q40160_SOLLC); contains Interpro domain(s)  IPR013210  Leucine-rich repeat, N-terminal "
+Solyc07g065110,maternally expressed,S. chilense,Protease inhibitor/seed storage/lipid transfer protein family protein (AHRD V1 **-* D7MKH4_ARALY); contains Interpro domain(s)  IPR003612  Plant lipid transfer protein/seed storage/trypsin-alpha amylase inhibitor 
+Solyc07g065500,maternally expressed,S. peruvianum,"Nuclear transcription factor Y subunit B-3 (AHRD V1 **** B6SUG8_MAIZE); contains Interpro domain(s)  IPR003957  Transcription factor, CBFA/NFYB, DNA topoisomerase "
+Solyc07g065660,maternally expressed,S. peruvianum,Cellulose synthase (AHRD V1 **** Q2HT17_MEDTR); contains Interpro domain(s)  IPR005150  Cellulose synthase 
+Solyc08g006820,paternally expressed,S. chilense,Transmembrane 9 superfamily protein member 4 (AHRD V1 ***- B6SXZ2_MAIZE); contains Interpro domain(s)  IPR004240  Nonaspanin (TM9SF) 
+Solyc08g007770,maternally expressed,S. peruvianum,"PGR5-like protein 1A, chloroplastic (AHRD V1 ***- PGL1A_ARATH)"
+Solyc08g008610,maternally expressed,S. peruvianum,Hydrolase alpha/beta fold family protein (AHRD V1 ***- D7M8X4_ARALY); contains Interpro domain(s)  IPR000073  Alpha/beta hydrolase fold-1 
+Solyc08g016080,maternally expressed,S. peruvianum,NAD-dependent epimerase/dehydratase (AHRD V1 *--- B3ECK3_CHLL2); contains Interpro domain(s)  IPR016040  NAD(P)-binding domain 
+Solyc08g016160,maternally expressed,S. peruvianum,Cation/H(+) antiporter 15 (AHRD V1 **** CHX15_ARATH); contains Interpro domain(s)  IPR006153  Cation/H+ exchanger 
+Solyc08g060810,paternally expressed,S. chilense,"Ubiquitin ligase complex F-box protein GRR1 (AHRD V1 *-** C5G8H6_AJEDR); contains Interpro domain(s)  IPR006553  Leucine-rich repeat, cysteine-containing subtype "
+Solyc08g062490,paternally expressed,S. peruvianum,WRKY transcription factor 16 (AHRD V1 **** C9DI05_9ROSI); contains Interpro domain(s)  IPR003657  DNA-binding WRKY 
+Solyc08g065940,paternally expressed,S. peruvianum,Zinc finger CCCH domain-containing protein 20 (AHRD V1 ***- C3H20_ARATH)
+Solyc08g067030,maternally expressed,S. peruvianum,Os01g0611000 protein (Fragment) (AHRD V1 ***- Q0JLB5_ORYSJ); contains Interpro domain(s)  IPR006946  Protein of unknown function DUF642 
+Solyc08g067320,maternally expressed,S. peruvianum,Chlorophyll a/b binding protein (AHRD V1 ***- Q41422_SOLTU); contains Interpro domain(s)  IPR001344  Chlorophyll A-B binding protein 
+Solyc08g074480,maternally expressed,S. peruvianum,"Cortical cell-delineating protein (AHRD V1 **-- B6UGA2_MAIZE); contains Interpro domain(s)  IPR013770  Plant lipid transfer protein and hydrophobic protein, helical "
+Solyc08g075080,maternally expressed,S. peruvianum,"Ring finger protein 12 (AHRD V1 *-*- Q4V889_RAT); contains Interpro domain(s)  IPR018957  Zinc finger, C3HC4 RING-type "
+Solyc08g076160,paternally expressed,S. peruvianum,"Guanine nucleotide-binding protein alpha-1 subunit (AHRD V1 *-*- B6TWS6_MAIZE); contains Interpro domain(s)  IPR001019  Guanine nucleotide binding protein (G-protein), alpha subunit "
+Solyc08g076220,maternally expressed,S. peruvianum,Phosphoribulokinase/uridine kinase (AHRD V1 ***- B7KI62_CYAP7); contains Interpro domain(s)  IPR006083  Phosphoribulokinase/uridine kinase 
+Solyc08g076350,paternally expressed,S. peruvianum,Abhydrolase domain-containing protein FAM108B1 (AHRD V1 *--- C0HAS5_SALSA)
+Solyc08g076690,paternally expressed,S. peruvianum,Inositol-tetrakisphosphate 1-kinase 1 (AHRD V1 **** B6TJ44_MAIZE); contains Interpro domain(s)  IPR017427  Inositol-tetrakisphosphate 1-kinase 
+Solyc08g078670,maternally expressed,S. peruvianum,Aspartyl protease (AHRD V1 **-- B8YIB7_MIRJA); contains Interpro domain(s)  IPR001461  Peptidase A1 
+Solyc08g080580,paternally expressed,S. peruvianum,Myb (AHRD V1 ***- Q948S4_TOBAC); contains Interpro domain(s)  IPR015495  Myb transcription factor 
+Solyc08g081220,maternally expressed,S. peruvianum,Cytochrome P450
+Solyc09g007290,paternally expressed,S. chilense,"Nuclear transcription factor Y subunit B-3 (AHRD V1 **** B6UBN3_MAIZE); contains Interpro domain(s)  IPR003957  Transcription factor, CBFA/NFYB, DNA topoisomerase "
+Solyc09g007900,maternally expressed,S. peruvianum,Phenylalanine ammonia-lyase (AHRD V1 **** B5LAW0_CAPAN); contains Interpro domain(s)  IPR005922  Phenylalanine ammonia-lyase 
+Solyc09g009510,maternally expressed,S. peruvianum,Hydrolase alpha/beta fold family protein (AHRD V1 **** D7LIQ3_ARALY); contains Interpro domain(s)  IPR000073  Alpha/beta hydrolase fold-1 
+Solyc09g010640,paternally expressed,S. chilense,SLT1 protein (AHRD V1 **-- Q9FQY3_TOBAC)
+Solyc09g011580,maternally expressed,S. peruvianum,"Glutathione S-transferase-like protein (AHRD V1 **** A8DUB0_SOLLC); contains Interpro domain(s)  IPR004046  Glutathione S-transferase, C-terminal "
+Solyc09g011810,maternally expressed,S. peruvianum,"Fructose-1 6-bisphosphatase class 1 (AHRD V1 **** D0MHZ8_RHOM4); contains Interpro domain(s)  IPR000146  Fructose-1,6-bisphosphatase "
+Solyc09g014160,paternally expressed,S. peruvianum,"UPF0503 protein At3g09070, chloroplastic (AHRD V1 ***- U503A_ARATH); contains Interpro domain(s)  IPR008004  Protein of unknown function DUF740 "
+Solyc09g014520,maternally expressed,S. peruvianum,"Chlorophyll a-b binding protein 6A, chloroplastic (AHRD V1 **** CB11_SOLLC); contains Interpro domain(s)  IPR001344  Chlorophyll A-B binding protein "
+Solyc09g064280,paternally expressed,S. peruvianum,Unknown Protein (AHRD V1)
+Solyc09g064280,paternally expressed,S. chilense,Unknown Protein (AHRD V1)
+Solyc09g064500,maternally expressed,S. peruvianum,"Photosystem II reaction center psb28 protein (AHRD V1 ***- C6SZM2_SOYBN); contains Interpro domain(s)  IPR005610  Photosystem II protein Psb28, class 1 "
+Solyc09g065910,maternally expressed,S. peruvianum,"Photosystem II reaction center W protein (AHRD V1 ***- B6TMB3_MAIZE); contains Interpro domain(s)  IPR009806  Photosystem II protein PsbW, class 2 "
+Solyc09g065910,maternally expressed,S. chilense,"Photosystem II reaction center W protein (AHRD V1 ***- B6TMB3_MAIZE); contains Interpro domain(s)  IPR009806  Photosystem II protein PsbW, class 2 "
+Solyc09g066460,paternally expressed,S. peruvianum,Serine/threonine-protein kinase 38 (AHRD V1 ***- B6U4A0_MAIZE); contains Interpro domain(s)  IPR002290  Serine/threonine protein kinase 
+Solyc09g066480,paternally expressed,S. chilense,Chromodomain-helicase-DNA-binding protein 2 (AHRD V1 *--- CHD2_HUMAN); contains Interpro domain(s)  IPR000330  SNF2-related 
+Solyc09g072670,paternally expressed,S. chilense,Rho GDP dissociation inhibitor 1 (AHRD V1 **** Q705X4_MEDTR); contains Interpro domain(s)  IPR000406  RHO protein GDP dissociation inhibitor 
+Solyc09g074510,paternally expressed,S. peruvianum,"Tubby-like F-box protein 3 (AHRD V1 ***- TLP3_ARATH); contains Interpro domain(s)  IPR000007  Tubby, C-terminal "
+Solyc09g074510,paternally expressed,S. chilense,"Tubby-like F-box protein 3 (AHRD V1 ***- TLP3_ARATH); contains Interpro domain(s)  IPR000007  Tubby, C-terminal "
+Solyc09g075140,maternally expressed,S. peruvianum,Lipase-like protein (AHRD V1 **-- Q9M3D1_ARATH)
+Solyc09g075810,maternally expressed,S. peruvianum,Blue copper protein (AHRD V1 *--- B6U7P6_MAIZE); contains Interpro domain(s)  IPR003245  Plastocyanin-like 
+Solyc09g075850,paternally expressed,S. chilense,Transmembrane protein 49 (AHRD V1 ***- B6TDW5_MAIZE)
+Solyc09g090570,maternally expressed,S. peruvianum,Proton gradient regulation 5 (AHRD V1 ***- B0F831_CUCSA)
+Solyc09g091960,paternally expressed,S. peruvianum,High mobility group family protein (AHRD V1 **-- D7KE87_ARALY); contains Interpro domain(s)  IPR001606  AT-rich interaction region 
+Solyc10g006130,maternally expressed,S. peruvianum,"Ethylene responsive transcription factor 3a (AHRD V1 **** C0J9I5_9ROSA); contains Interpro domain(s)  IPR001471  Pathogenesis-related transcriptional factor and ERF, DNA-binding "
+Solyc10g006230,maternally expressed,S. peruvianum,"Chlorophyll a-b binding protein 7, chloroplastic (AHRD V1 ***- CB12_SOLLC); contains Interpro domain(s)  IPR001344  Chlorophyll A-B binding protein "
+Solyc10g007600,maternally expressed,S. peruvianum,"L-lactate dehydrogenase  (AHRD V1 ***- LLDD_VIBPA); contains Interpro domain(s)  IPR012133  Alpha-hydroxy acid dehydrogenase, FMN-dependent "
+Solyc10g007690,maternally expressed,S. peruvianum,"Chlorophyll a-b binding protein 8, chloroplastic (AHRD V1 ***- CB13_SOLLC); contains Interpro domain(s)  IPR001344  Chlorophyll A-B binding protein "
+Solyc10g054780,maternally expressed,S. peruvianum,Acetyl esterase (AHRD V1 **-- AES_SHIFL); contains Interpro domain(s)  IPR013094  Alpha/beta hydrolase fold-3 
+Solyc10g075160,maternally expressed,S. peruvianum,"Ferredoxin I (AHRD V1 ***- Q93XJ9_SOLTU); contains Interpro domain(s)  IPR010241  Ferredoxin [2Fe-2S], plant "
+Solyc10g077120,maternally expressed,S. chilense,Photosystem II core complex proteins psbY (AHRD V1 *-*- B6SR26_MAIZE)
+Solyc10g081980,maternally expressed,S. peruvianum,Harpin-induced protein-like (Fragment) (AHRD V1 **-- D2CFH8_COFAR); contains Interpro domain(s)  IPR010847  Harpin-induced 1 
+Solyc10g084440,paternally expressed,S. peruvianum,AT hook motif family protein (AHRD V1 ***- B6THS5_MAIZE)
+Solyc10g085740,paternally expressed,S. peruvianum,"GDSL esterase/lipase At5g03820 (AHRD V1 ***- GDL73_ARATH); contains Interpro domain(s)  IPR001087  Lipase, GDSL "
+Solyc10g085750,paternally expressed,S. peruvianum,"Polyadenylate-binding protein 1 (AHRD V1 ***- Q6DF12_XENTR); contains Interpro domain(s)  IPR006515  Polyadenylate binding protein, human types 1, 2, 3, 4 "
+Solyc11g010850,maternally expressed,S. peruvianum,1-deoxy-D-xylulose 5-phosphate synthase 2 (AHRD V1 **** C7U111_SOLLC); contains Interpro domain(s)  IPR005477  Deoxyxylulose-5-phosphate synthase 
+Solyc11g011850,maternally expressed,S. peruvianum,"Galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase 1 (AHRD V1 *--- B6U0V3_MAIZE); contains Interpro domain(s)  IPR005027  Glycosyl transferase, family 43 "
+Solyc11g012620,maternally expressed,S. peruvianum,"Agenet domain-containing protein / bromo-adjacent homology (BAH) domain-containing protein-like (AHRD V1 *--- Q69J33_ORYSJ); contains Interpro domain(s)  IPR014002  Tudor-like, plant "
+Solyc11g013310,maternally expressed,S. peruvianum,"Auxin transporter-like protein 3 (AHRD V1 ***- B6TPT6_MAIZE); contains Interpro domain(s)  IPR013057  Amino acid transporter, transmembrane "
+Solyc11g022590,maternally expressed,S. peruvianum,"Kunitz trypsin inhibitor 4 (Fragment) (AHRD V1 **** C1J5E0_POPBA); contains Interpro domain(s)  IPR002160  Proteinase inhibitor I3, Kunitz legume "
+Solyc11g045270,maternally expressed,S. peruvianum,Unknown Protein (AHRD V1); contains Interpro domain(s)  IPR011510  Sterile alpha motif homology 2 
+Solyc11g066040,paternally expressed,S. peruvianum,U-box domain-containing protein 13 (AHRD V1 **-- PUB13_ARATH); contains Interpro domain(s)  IPR011989  Armadillo-like helical 
+Solyc11g067260,maternally expressed,S. peruvianum,Hydrolase alpha/beta fold family protein (AHRD V1 ***- D7LIQ3_ARALY); contains Interpro domain(s)  IPR000073  Alpha/beta hydrolase fold-1 
+Solyc11g067260,maternally expressed,S. chilense,Hydrolase alpha/beta fold family protein (AHRD V1 ***- D7LIQ3_ARALY); contains Interpro domain(s)  IPR000073  Alpha/beta hydrolase fold-1 
+Solyc11g068950,maternally expressed,S. peruvianum,BEL1-like homeodomain protein 1 (AHRD V1 **-- BLH1_ARATH); contains Interpro domain(s)  IPR006563  POX 
+Solyc11g069430,maternally expressed,S. peruvianum,Aquaporin 1 (AHRD V1 ***- Q9M4T0_ALLCE); contains Interpro domain(s)  IPR012269  Aquaporin 
+Solyc11g072030,maternally expressed,S. peruvianum,Non-specific lipid-transfer protein-like protein (AHRD V1 ***- C0KHK0_9CARY); contains Interpro domain(s)  IPR003612  Plant lipid transfer protein/seed storage/trypsin-alpha amylase inhibitor 
+Solyc11g072050,paternally expressed,S. peruvianum,"WD-repeat protein (AHRD V1 *--- Q7ND05_GLOVI); contains Interpro domain(s)  IPR017986  WD40 repeat, region "
+Solyc11g072050,paternally expressed,S. chilense,"WD-repeat protein (AHRD V1 *--- Q7ND05_GLOVI); contains Interpro domain(s)  IPR017986  WD40 repeat, region "
+Solyc12g005270,paternally expressed,S. peruvianum,Histone H2A (AHRD V1 ***- D7KGW6_ARALY); contains Interpro domain(s)  IPR002119  Histone H2A 
+Solyc12g005270,paternally expressed,S. chilense,Histone H2A (AHRD V1 ***- D7KGW6_ARALY); contains Interpro domain(s)  IPR002119  Histone H2A 
+Solyc12g006460,maternally expressed,S. peruvianum,Cytochrome P450
+Solyc12g006620,paternally expressed,S. peruvianum,"Zinc finger CCCH domain-containing protein 34 (AHRD V1 ***- C3H34_ORYSJ); contains Interpro domain(s)  IPR000571  Zinc finger, CCCH-type "
+Solyc12g009600,maternally expressed,S. peruvianum,Thylakoid lumenal protein (AHRD V1 ***- B6SU36_MAIZE)
+Solyc12g009680,maternally expressed,S. peruvianum,Adiponectin receptor protein 2 (AHRD V1 ***- B0W6M8_CULQU); contains Interpro domain(s)  IPR004254  Hly-III related 
+Solyc12g009930,maternally expressed,S. peruvianum,UDP-glucuronosyltransferase 1-6 (AHRD V1 *-*- UD16_MOUSE); contains Interpro domain(s)  IPR002213  UDP-glucuronosyl/UDP-glucosyltransferase 
+Solyc12g011340,paternally expressed,S. chilense,"Polyadenylate-binding protein (AHRD V1 *-*- D3TN92_GLOMM); contains Interpro domain(s)  IPR000504  RNA recognition motif, RNP-1 "
+Solyc12g013910,maternally expressed,S. peruvianum,PRA1 family protein H (AHRD V1 ***- PRA1H_ARATH); contains Interpro domain(s)  IPR004895  Prenylated rab acceptor PRA1 
+Solyc12g014170,paternally expressed,S. peruvianum,Bromodomain containing 2 (Fragment) (AHRD V1 *--- A2AAU1_HUMAN); contains Interpro domain(s)  IPR001487  Bromodomain 
+Solyc12g014170,paternally expressed,S. chilense,Bromodomain containing 2 (Fragment) (AHRD V1 *--- A2AAU1_HUMAN); contains Interpro domain(s)  IPR001487  Bromodomain 
+Solyc12g017460,maternally expressed,S. peruvianum,"GDSL esterase/lipase At1g28590 (AHRD V1 ***- GDL8_ARATH); contains Interpro domain(s)  IPR001087  Lipase, GDSL "
+Solyc12g019550,maternally expressed,S. peruvianum,Unknown Protein (AHRD V1)
+Solyc12g042920,maternally expressed,S. peruvianum,Cytochrome c1 (AHRD V1 ***- Q9FKS5_ARATH); contains Interpro domain(s)  IPR002326  Cytochrome c1 
+Solyc12g042930,maternally expressed,S. peruvianum,Os01g0611000 protein (Fragment) (AHRD V1 ***- Q0JLB5_ORYSJ); contains Interpro domain(s)  IPR006946  Protein of unknown function DUF642 
+Solyc12g042990,paternally expressed,S. peruvianum,Glycine-rich protein-like (AHRD V1 *-*- Q5ZB64_ORYSJ); contains Interpro domain(s)  IPR018545  CASC3/Barentsz eIF4AIII binding 
+Solyc12g044280,maternally expressed,S. peruvianum,"Photosystem I reaction center subunit VI, chloroplastic (AHRD V1 ***- PSAH_SPIOL); contains Interpro domain(s)  IPR004928  Photosystem I reaction centre subunit VI "
+Solyc12g044330,maternally expressed,S. peruvianum,Aquaporin (AHRD V1 ***- O81186_VERFO); contains Interpro domain(s)  IPR012269  Aquaporin 
+Solyc12g044630,paternally expressed,S. chilense,"Profilin (AHRD V1 ***- Q9SMC0_TOBAC); contains Interpro domain(s)  IPR005455  Profilin, plant "
+Solyc12g049520,maternally expressed,S. peruvianum,COP1-Interacting ProteinI 7 (CIP7) (Fragment) (AHRD V1 **-- Q7GDB1_ARATH)
+Solyc12g096090,maternally expressed,S. peruvianum,Cadmium-induced protein AS8 (AHRD V1 ***- CDI8_ARATH)
+Solyc12g096670,maternally expressed,S. chilense,Ankyrin repeat family protein (AHRD V1 **-- Q9LVG7_ARATH); contains Interpro domain(s)  IPR002110  Ankyrin 
+Solyc12g098450,paternally expressed,S. peruvianum,DUF803 domain membrane protein (AHRD V1 **-- Q4WRL6_ASPFU); contains Interpro domain(s)  IPR008521  Protein of unknown function DUF803 
+Solyc12g098600,maternally expressed,S. peruvianum,UDP-glucosyltransferase family 1 protein (AHRD V1 ***- C6KI44_CITSI); contains Interpro domain(s)  IPR002213  UDP-glucuronosyl/UDP-glucosyltransferase 
+Solyc12g099500,maternally expressed,S. peruvianum,Unknown Protein (AHRD V1)

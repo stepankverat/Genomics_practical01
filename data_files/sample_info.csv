@@ -1,0 +1,19 @@
+sample,rep,cross_type,mother,father,cross_ind,cross_spe
+A1,rep1,intra,S. chilense,S. chilense,LA4329BxLA2748B,CC1
+A3,rep1,intra,S. peruvianum,S. peruvianum,LA2744BxLA2964A,PP1
+A5,rep1,inter,S. chilense,S. peruvianum,LA4329BxLA2744B,CP
+A9,rep1,inter,S. peruvianum,S. chilense,LA2744BxLA4329B,PC
+A10,rep1,intra,S. chilense,S. chilense,LA2748BxLA4329B,CC2
+A11,rep1,intra,S. peruvianum,S. peruvianum,LA2964AxLA2744B,PP2
+A13,rep2,intra,S. chilense,S. chilense,LA4329BxLA2748B,CC1
+A15,rep2,intra,S. peruvianum,S. peruvianum,LA2744BxLA2964A,PP1
+A17,rep2,inter,S. chilense,S. peruvianum,LA4329BxLA2744B,CP
+A21,rep2,inter,S. peruvianum,S. chilense,LA2744BxLA4329B,PC
+A22,rep2,intra,S. chilense,S. chilense,LA2748BxLA4329B,CC2
+A23,rep2,intra,S. peruvianum,S. peruvianum,LA2964AxLA2744B,PP2
+A25,rep3,intra,S. chilense,S. chilense,LA4329BxLA2748B,CC1
+A27,rep3,intra,S. peruvianum,S. peruvianum,LA2744BxLA2964A,PP1
+A29,rep3,inter,S. chilense,S. peruvianum,LA4329BxLA2744B,CP
+A33,rep3,inter,S. peruvianum,S. chilense,LA2744BxLA4329B,PC
+A34,rep3,intra,S. chilense,S. chilense,LA2748BxLA4329B,CC2
+A35,rep3,intra,S. peruvianum,S. peruvianum,LA2964AxLA2744B,PP2

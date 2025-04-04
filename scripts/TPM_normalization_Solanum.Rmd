@@ -1,0 +1,82 @@
+---
+title: "TPM normalization sheet"
+date: "2025-03-25"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,        # Show code (set to FALSE to hide)
+  message = FALSE,    # Hide package loading messages
+  warning = FALSE,    # Hide warnings
+  error = TRUE        # allow knitting to continue if errors occur
+)
+# setwd("J:/Dropbox/Prague/Teaching/Course genomics of speciation/2024-2025/RNA-Seq practical/TPM normalization")
+```
+
+You have expression data in the form of raw read counts. What should you do first? Would you use these raw counts directly for downstream analyses like clustering, PCA, or differential expression? Why or why not? What factors influence the number of reads mapped to a gene? What is the purpose of normalization in RNA-seq analysis?
+
+Basically, TPM (Transcripts Per Million) adjusts raw read counts by accounting for gene length and sequencing depth for a fair comparison of expression levels across genes and across samples.
+
+# Load required libraries
+
+```{r}
+# Install dplyr if needed
+install.packages("dplyr")
+
+# Load libraries
+library(dplyr) 
+
+# Check your current directory
+getwd()
+
+# Set your working directory
+setwd("J:/Dropbox/Prague/Teaching/Course genomics of speciation/2024-2025/RNA-Seq practical/TPM normalization")
+```
+
+# Import raw read counts and gene lengths
+
+```{r}
+# Read count matrix: rows = genes, columns = samples
+read_counts <- read.csv("your_read_counts.csv", row.names = 1)
+# Gene lengths in kilobases (must contain columns: gene_id, length)
+gene_length_df <- read.csv("your_gene_lengths.csv")
+```
+
+# Filter and match gene IDs
+
+```{r}
+# Find common gene IDs between read counts and gene length file
+common_ids <- intersect(rownames(read_counts), gene_length_df$gene_id)
+
+# Subset and align
+read_counts <- read_counts[common_ids, ]
+gene_length_df <- gene_length_df[match(common_ids, gene_length_df$gene_id), ]
+
+# Extract lengths as numeric vector (already in kb)
+lengths_kb <- gene_length_df$length
+```
+
+# TPM normalization
+
+Now that you have read counts and gene length, how would you calculate transcripts per million ? Remember, TPM adjusts for gene length and sequencing depth. Hint: calculate reads per kilobase for each gene and then normalize to per million.
+
+```{r}
+# Define TPM normalization function
+calculate_tpm <- function(counts, lengths_kb) {
+  rpk <- sweep(counts, 1, lengths_kb, FUN = "/")  # Reads Per Kilobase
+  tpm <- sweep(rpk, 2, colSums(rpk), FUN = "/") * 1e6  # Normalize to per million
+  return(tpm)
+}
+
+# Run TPM normalization
+tpm_matrix <- calculate_tpm(as.matrix(read_counts), lengths_kb)
+```
+
+# Export TPM matrix
+
+```{r}
+write.csv(tpm_matrix, "your_output.csv", quote = FALSE)
+```
+
+You now have a normalized expression matrix.

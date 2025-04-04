@@ -1,0 +1,116 @@
+---
+title: "PCA visualization sheet"
+date: "2025-03-25"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,        # Show code (set to FALSE to hide)
+  message = FALSE,    # Hide package loading messages
+  warning = FALSE,    # Hide warnings
+  error = TRUE        # allow knitting to continue if errors occur
+)
+# setwd("J:/Dropbox/Prague/Teaching/Course genomics of speciation/2024-2025/RNA-Seq practical/PCA visualization")
+```
+
+Why are we using PCA in RNA-seq analysis? What can it tell us about the samples? What kind of variation is PCA capturing --- technical or biological?
+
+Which input data would you use for PCA and Why? Should you use all genes for PCA? Why or why not? These questions will help you use to understand script below.
+
+# Get started
+
+```{r}
+# Check your current directory
+getwd()
+
+# Set your working directory
+setwd("J:/Dropbox/Prague/Teaching/Course genomics of speciation/2024-2025/RNA-Seq practical/PCA visualization")
+```
+
+# Import data
+
+```{r}
+# Load expression data and sample metadata (contains sample information)
+expr_matrix <- read.csv("your_read_counts.csv", row.names = 1)
+metadata <- read.csv("your_sample_metadata.csv", row.names = 1)
+
+# Check the structure of the imported files
+head(expr_matrix)
+head(metadata)
+
+# Check that the samples in both files match
+all(colnames(expr_matrix) == rownames(metadata))  # should return TRUE
+```
+
+What kind of information about the experimental design can you find in the metadata file?
+
+# Prepare files before running PCA
+
+```{r}
+# Add 1 to ensure that the smallest value is log2(1) = 0
+log_expr <- log2(expr_matrix + 1)
+
+# Calculate the variance in expression of each gene across all samples
+var_genes <- apply(log_expr, 1, var)
+
+# Filter to keep only genes with non-zero variance
+log_expr_filtered <- log_expr[var_genes > 0, ]
+```
+
+Why did we apply a log transformation to expression values before running PCA? Why did we remove genes with zero variance across all samples?
+
+# Running PCA
+
+To perform PCA in R, use the `prcomp()` function with a matrix where rows are samples and columns are variables (e.g., genes).
+
+```{r}
+# Transpose the matrix so rows = samples, columns = genes
+# Center and scale genes so each contributes equally to PCA
+pca <- prcomp(t(log_expr_filtered), scale. = TRUE)
+
+# View a summary of the PCA results
+summary(pca)
+```
+
+`scale. = TRUE` standardizes each gene (z-score), ensuring that PCA isn't dominated by highly expressed genes.
+
+# Visualizing PCA
+
+```{r}
+# Basic PCA scatter plot using base R
+plot(pca$x[,1], pca$x[,2],
+     xlab = "PC1", ylab = "PC2",
+     main = "PCA Plot",
+     pch = 19, col = "blue")
+```
+
+```{r}
+# Calculate % variance explained
+percent_var <- round(summary(pca)$importance[2, 1:2] * 100, 1)
+
+# Extract PC scores for samples
+pca_scores <- pca$x[, 1:2]
+
+# Get grouping from metadata (make sure order matches rownames of pca$x)
+grouping <- as.factor(metadata[rownames(pca_scores), "grouping"])  # 'grouping' column in the metadata represents the experimental condition you want to use to check if samples cluster together or differ in the PCA
+
+# Assign color values based on grouping factor levels
+colors <- as.factor(grouping)
+
+# Plot PCA
+plot(pca_scores,
+     col = colors,
+     pch = 19,
+     xlab = paste0("PC1 (", percent_var[1], "%)"),
+     ylab = paste0("PC2 (", percent_var[2], "%)"),
+     main = "PCA Plot Colored by Grouping")
+
+# Add legend
+legend("topright", 
+       legend = levels(grouping), 
+       col = 1:length(levels(grouping)), 
+       pch = 19)
+```
+
+Do your PCA results support your experimental design or hypothesis? Why or why not?

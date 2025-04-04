@@ -1,0 +1,65 @@
+rnorm(1)
+rnorm(1,0,1)
+rnorm(n=1,mean=0,sd=1)
+rnorm(sd=1,n=1,mean=0)
+rnorm(sd=1,n=1,mean=0)
+rnorm(1,1,0)
+#coment?
+a = 4
+a <- 4
+david.hasselhof = 4
+a = 4+5
+x <- c(1,2,3,4,5,6,7)
+y <- 1:7
+z <- seq(1,7,1)
+w <- rep(1:7,1)
+
+vector1 <- seq(1,5,0.3)
+vector2 <- seq(14,0,-2)
+vector3 <- rep(seq(1,2,0.3),3)
+vector4 <- c(rep(1:4,2),85)
+
+b = c("bird", "cat", "ferret")
+
+dlouhy_vec  = length(seq(1,105,0.45))
+
+x = c(1,2,3,4)
+y = c(3,4,5)
+z = 15
+a = c(8,9)
+b = c(10,20)
+
+a = c(10,1,16,3,8,5,13,55,34,13,14)
+x = (1:10)
+y = x^2
+z <- c(1,4:7)
+
+#matrix / muze obsahovat pouze stejna cisla
+#data_frame muze obsahovat i jine typy
+
+z <- seq(1,12)
+z.matrix <- matrix(data=z,nrow=4,ncol = 3)
+
+d1 <- seq (1,47,2)
+d1.matrix <- matrix(data=d1,nrow=6,ncol = 4)
+g1 = d1.matrix[4,3]
+d2 = c(d1.matrix[,2],d1.matrix[,4])
+d2.matrix <- matrix(data=d2,nrow=6,ncol = 2)
+
+d3 = d1.matrix +1
+#d3.matrix <- matrix(data=d3,nrow=6,ncol = 4)
+
+chick_v = c(1:5,10,15,12,13,15,8,11,9,12,13)
+chick <- matrix(data = chick_v,nrow = 5,ncol = 3)
+colnames(chick) <- c("individual", "weight", "age")
+# Find rows where weight > 10 and age < 12
+subset_chick <- chick[chick[,"weight"] > 10 & chick[,"age"] < 12]
+subset_chick_id <- chick[chick[,"weight"] > 10 & chick[,"age"] < 12,1]
+
+
+individual = c("a1","a2","a3","a4")
+age = c(15,13,16,17)
+#musome specifikovat working directory getwd(), setwd()
+setwd("/home/verozvest/Downloads")
+
+soubor = read.csv("bird_egg.csv")

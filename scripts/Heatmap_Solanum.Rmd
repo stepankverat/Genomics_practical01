@@ -1,0 +1,87 @@
+---
+title: "Heatmap Visualization sheet"
+date: "2025-03-25"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,        # Show code (set to FALSE to hide)
+  message = FALSE,    # Hide package loading messages
+  warning = FALSE,    # Hide warnings
+  error = TRUE        # allow knitting to continue if errors occur
+)
+# setwd("J:/Dropbox/Prague/Teaching/Course genomics of speciation/2024-2025/RNA-Seq practical/Heatmap visualization")
+```
+
+Would you like to do a heatmap? Why?
+
+Which input data would you use for heatmap and Why? Should you use all genes or only a subset?
+
+# Load required libraries
+
+```{r}
+# Install required packages if not already installed
+if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
+if (!requireNamespace("pheatmap", quietly = TRUE)) install.packages("pheatmap")
+if (!requireNamespace("RColorBrewer", quietly = TRUE)) install.packages("RColorBrewer")
+
+# Load libraries
+library(pheatmap)      # for creating heatmaps
+library(RColorBrewer)  # for color palettes
+
+# Check your current directory
+getwd()
+
+# Set your working directory
+setwd("J:/Dropbox/Prague/Teaching/Course genomics of speciation/2024-2025/RNA-Seq practical/Heatmap visualization")
+```
+
+# Import data
+
+```{r}
+# Load expression data
+tpm_matrix <- read.csv("your_read_counts.csv", row.names = 1)
+
+# (Optional) Filter genes for better visualization — e.g., top variable genes
+top_var_genes <- apply(tpm_matrix, 1, var)
+top_genes <- names(sort(top_var_genes, decreasing = TRUE))[1:50]  # top 50 variable genes
+mat_log <- log2(tpm_matrix[top_genes, ] + 1)  # log-transform for better contrast
+```
+
+# Create a basic Heatmap
+
+```{r}
+pheatmap(mat_log,
+         scale = "row",                     # normalize expression across each gene
+         clustering_method = "ward.D2",     # method for hierarchical clustering
+         show_rownames = TRUE,              # show gene names
+         show_colnames = TRUE,              # show sample names
+         color = colorRampPalette(rev(brewer.pal(11, "RdBu")))(50),
+         main = "Heatmap of Top Variable Genes")
+```
+
+# (Optional) Add column annotations by grouping onto the Heatmap
+
+Again, 'grouping' column in the metadata represents the experimental condition you want to use to check if samples show similar expression profile or not.
+
+```{r}
+# Load sample metadata
+metadata_subset <- read.csv("your_sample_metadata.csv", row.names = 1)
+
+# Create annotation data frame for column coloring
+annotation_df <- data.frame(grouping = metadata_subset$grouping)
+rownames(annotation_df) <- rownames(metadata_subset)  # sample IDs should match column names in mat_log
+
+# Heatmap with sample annotations
+pheatmap(mat_log,
+         scale = "row",
+         annotation_col = annotation_df,
+         clustering_method = "ward.D2",
+         show_rownames = TRUE,
+         show_colnames = TRUE,
+         color = colorRampPalette(rev(brewer.pal(11, "RdBu")))(50),
+         main = "Heatmap with grouping annotation")
+```
+
+Do you observe any noticeable differences in gene expression patterns between sample groupings?
