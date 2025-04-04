@@ -1,11 +1,11 @@
 {
     "id": "C05134FA",
-    "path": "~/Downloads/genomics_practical01/data_files/tpm.R",
-    "project_path": "data_files/tpm.R",
+    "path": "~/Downloads/genomics_practical01/tpm.R",
+    "project_path": "tpm.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "2963452689",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1743780440041.0,
     "source_on_save": false,
     "relative_order": 5,
@@ -17,11 +17,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1743780988,
+    "lastKnownWriteTime": 1743783136,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1743781077946,
+    "last_content_update": 1743783136187,
     "read_only": false,
     "read_only_alternatives": []
 }

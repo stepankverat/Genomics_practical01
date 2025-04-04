@@ -1,9 +1,9 @@
 {
     "id": "B2B012E8",
-    "path": "~/Documents/first.R",
-    "project_path": null,
+    "path": "~/Downloads/genomics_practical01/first.R",
+    "project_path": "first.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "193442444",
     "contents": "",
     "dirty": false,
     "created": 1743766503583.0,
@@ -17,11 +17,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1743774142,
+    "lastKnownWriteTime": 1743783114,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1743774142917,
+    "last_content_update": 1743783114821,
     "read_only": false,
     "read_only_alternatives": []
 }

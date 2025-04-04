@@ -19,3 +19,9 @@ calculate_tpm <- function(counts, gene_lengths) {
 }
 
 tpm_values <- calculate_tpm(as.matrix(read_counts), gene_length_vector)
+
+tpm_df <- as.data.frame(tpm_values)
+tpm_df$gene <- rownames(tpm_df)
+tpm_df <- tpm_df[, c("gene", colnames(tpm_df)[colnames(tpm_df) != "gene"])]
+
+write.csv(tpm_df, "tpm_values.csv", row.names = FALSE)
