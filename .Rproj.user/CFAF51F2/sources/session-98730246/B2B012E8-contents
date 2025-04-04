@@ -2,14 +2,19 @@ setwd("/home/verozvest/Downloads/genomics_practical01/data_files/")
 
 sample_info = read.csv("sample_info.csv")
 read_counts = read.csv("read_counts.csv", check.names = FALSE)
+imprinted_genes = read.csv("imprinted_genes.csv")
 inter_samples <- sample_info[sample_info$cross_type == "inter", ]
 
+imprinted_names <- imprinted_genes$gene.ID
 
 inter_sample_names <- inter_samples$sample
 inter_columns <- c("gene", inter_sample_names)
 inter_read_counts <- read_counts[, colnames(read_counts) %in% inter_columns]
 
-print(inter_read_counts)
+imprinted_read_counts <- inter_read_counts[inter_read_counts$gene %in% imprinted_names, ]
+
+write.csv(imprinted_read_counts, "imprinted_inter_read_counts.csv", row.names = FALSE)
+
+
 
 write.csv(inter_read_counts, "inter_read_counts.csv", row.names = FALSE)
-
