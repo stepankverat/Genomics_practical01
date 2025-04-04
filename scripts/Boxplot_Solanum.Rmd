@@ -32,6 +32,7 @@ library(ggplot2)
 expression_matrix <- read.csv("your_data.csv", row.names = 1, check.names = FALSE)
 metadata <- read.csv("your_metadata.csv")  # must contain 'sample_id' and 'grouping'
 
+
 expression_matrix$gene_id <- rownames(expression_matrix)
 expression_long <- pivot_longer(expression_matrix, -gene_id, names_to = "sample_id", values_to = "TPM")
 expression_annotated <- expression_long %>% left_join(metadata, by = "sample_id")
