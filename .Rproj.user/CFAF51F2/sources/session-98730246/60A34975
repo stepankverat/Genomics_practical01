@@ -1,0 +1,27 @@
+{
+    "id": "60A34975",
+    "path": "~/Downloads/genomics_practical01/scripts/Boxplot_Solanum.Rmd",
+    "project_path": "scripts/Boxplot_Solanum.Rmd",
+    "type": "r_markdown",
+    "hash": "1188739602",
+    "contents": "",
+    "dirty": false,
+    "created": 1743772952065.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "21,16",
+        "scrollLine": "18",
+        "last_setup_crc32": "987302463104d02e"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1743780445,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1743780445231,
+    "read_only": false,
+    "read_only_alternatives": []
+}

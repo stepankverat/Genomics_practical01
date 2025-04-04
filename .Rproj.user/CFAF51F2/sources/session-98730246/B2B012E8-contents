@@ -26,3 +26,11 @@ group2_table <- imprinted_read_counts[, colnames(imprinted_read_counts) %in% gro
 
 write.csv(group1_table, "imprinted_P_mat_samples.csv", row.names = FALSE)
 write.csv(group2_table, "imprinted_C_mat_samples.csv", row.names = FALSE)
+
+metadata <- data.frame(
+  sample_id = c("A5", "A9", "A17", "A21", "A29", "A33"),
+  grouping = c("CP", "PC", "CP", "PC", "CP", "PC")
+)
+
+# Write metadata file
+write.csv(metadata, "metadata.csv", row.names = FALSE)
