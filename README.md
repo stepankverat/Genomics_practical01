@@ -16,7 +16,7 @@ Data files:
 - GO annotation of S. lycopersicum genome (3 files: BP, CC and MF)
 
 
-Scripts (as .odt, .md and .Rmd files):
+Scripts (as .R, .md and .Rmd files):
 - Differential expression analysis (DESeq2)
 - TPM normalization
 - PCA
