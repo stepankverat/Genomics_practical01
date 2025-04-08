@@ -1,4 +1,4 @@
-setwd("/home/verozvest/Documents/genomics_practical01/data_files")
+setwd("/home/verozvest/Documents/Genomics_of_speciation/genomics_practical01/data_files")
 
 sample_info = read.csv("sample_info.csv")
 read_counts = read.csv("read_counts.csv", check.names = FALSE)

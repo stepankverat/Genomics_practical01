@@ -9,7 +9,7 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-setwd("/home/verozvest/Documents/genomics_practical01/data_files")
+setwd("/home/verozvest/Documents/Genomics_of_speciation/genomics_practical01/data_files")
 expression_matrix <- read.csv("imprinted_tpm.csv", row.names = 1, check.names = FALSE)
 metadata <- read.csv("metadata.csv") 
 
