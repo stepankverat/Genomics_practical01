@@ -1,7 +1,7 @@
-"sample_id","grouping"
-"A5","CP"
-"A9","PC"
-"A17","CP"
-"A21","PC"
-"A29","CP"
-"A33","PC"
+sample,rep,cross_type,mother,father,cross_ind,cross_spe
+A5,rep1,inter,S. chilense,S. peruvianum,LA4329BxLA2744B,CP
+A9,rep1,inter,S. peruvianum,S. chilense,LA2744BxLA4329B,PC
+A17,rep2,inter,S. chilense,S. peruvianum,LA4329BxLA2744B,CP
+A21,rep2,inter,S. peruvianum,S. chilense,LA2744BxLA4329B,PC
+A29,rep3,inter,S. chilense,S. peruvianum,LA4329BxLA2744B,CP
+A33,rep3,inter,S. peruvianum,S. chilense,LA2744BxLA4329B,PC
